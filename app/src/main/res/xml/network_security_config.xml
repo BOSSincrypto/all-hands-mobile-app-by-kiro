@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  All traffic is HTTPS/WSS to app.all-hands.dev and its sandbox hosts. Cleartext is
+  refused outright, and user-added CAs are not trusted so a locally installed
+  certificate cannot be used to intercept API tokens.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

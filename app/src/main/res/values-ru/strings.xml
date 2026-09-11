@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenHands</string>
+
+    <!-- Авторизация -->
+    <string name="sign_in_explainer">Вход через браузер. OpenHands покажет код для подтверждения, поэтому API-ключ вводить на телефоне не нужно.</string>
+    <string name="sign_in_action">Войти через браузер</string>
+    <string name="device_code_title">Подтвердите код</string>
+    <string name="device_code_explainer">Откройте страницу OpenHands и убедитесь, что показанный там код совпадает с кодом выше.</string>
+    <string name="device_code_open_browser">Открыть OpenHands</string>
+    <string name="device_code_waiting">Ожидание подтверждения…</string>
+    <string name="lock_title">Заблокировано</string>
+    <string name="lock_explainer">Ваш ключ доступа зашифрован, и расшифровать его можно только по биометрии или PIN-коду устройства.</string>
+    <string name="lock_unlock">Разблокировать</string>
+    <string name="biometric_title">OpenHands</string>
+    <string name="biometric_subtitle_unlock">Подтвердите личность, чтобы открыть аккаунт</string>
+    <string name="biometric_subtitle_save">Подтвердите личность, чтобы безопасно сохранить ключ</string>
+
+    <!-- Разговоры -->
+    <string name="conversations_title">Разговоры</string>
+    <string name="conversations_empty">Разговоров пока нет. Запустите задачу кнопкой +.</string>
+    <string name="conversation_untitled">Без названия</string>
+    <string name="conversation_cost">%.2f $</string>
+
+    <!-- Статусы -->
+    <string name="status_starting">Запускается</string>
+    <string name="status_running">Работает</string>
+    <string name="status_idle">Ожидает задачу</string>
+    <string name="status_paused">Приостановлено</string>
+    <string name="status_waiting_confirmation">Нужно ваше подтверждение</string>
+    <string name="status_finished">Завершено</string>
+    <string name="status_error">Ошибка</string>
+    <string name="status_stuck">Застряло</string>
+    <string name="status_sandbox_error">Ошибка песочницы</string>
+    <string name="status_sandbox_missing">Песочница удалена</string>
+    <string name="status_unknown">Неизвестно</string>
+
+    <!-- Новая задача -->
+    <string name="new_task_title">Новая задача</string>
+    <string name="new_task_prompt_label">Задача</string>
+    <string name="new_task_prompt_hint">Опишите, что должен сделать агент</string>
+    <string name="new_task_provider_label">Git-провайдер</string>
+    <string name="new_task_repo_search_label">Поиск репозиториев</string>
+    <string name="new_task_repo_label">Репозиторий</string>
+    <string name="new_task_no_repo">Без репозитория</string>
+    <string name="new_task_branch_label">Ветка</string>
+    <string name="new_task_branch_default">Ветка по умолчанию</string>
+    <string name="new_task_model_label">Модель</string>
+    <string name="new_task_model_default">Как в настройках аккаунта</string>
+    <string name="new_task_start">Запустить задачу</string>
+    <string name="new_task_background_note">Агент работает на серверах OpenHands, поэтому приложение можно закрыть — задача продолжится.</string>
+
+    <!-- Чат -->
+    <string name="chat_message_hint">Сообщение агенту</string>
+    <string name="chat_live">Онлайн</string>
+    <string name="chat_confirmation_prompt">Агент ждёт вашего подтверждения, чтобы продолжить.</string>
+    <string name="chat_sandbox_paused">Песочница приостановлена. Возобновите её, чтобы продолжить работу.</string>
+
+    <!-- Файлы и терминал -->
+    <string name="files_title">Файлы</string>
+    <string name="terminal_title">Терминал</string>
+    <string name="terminal_hint">Команда</string>
+    <string name="terminal_run">Выполнить</string>
+    <string name="terminal_warning">Команды выполняются в песочнице задачи, а не на вашем телефоне.</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_web_section">Веб-интерфейс</string>
+    <string name="settings_web_explainer">Agent Canvas и полные настройки аккаунта открываются в браузере, где они и рассчитаны на работу.</string>
+    <string name="settings_open_canvas">Agent Canvas</string>
+    <string name="settings_open_web">Настройки аккаунта</string>
+    <string name="settings_secrets_section">Секреты</string>
+    <string name="settings_secrets_explainer">Секреты хранятся в OpenHands и передаются агентам как переменные окружения. После сохранения значение больше не показывается.</string>
+    <string name="settings_secrets_empty">Секретов нет.</string>
+    <string name="settings_secret_add">Добавить секрет</string>
+    <string name="settings_secret_name">Название</string>
+    <string name="settings_secret_value">Значение</string>
+    <string name="settings_security_section">Безопасность</string>
+    <string name="settings_security_explainer">При выходе зашифрованный ключ и локальный кэш удаляются с этого устройства.</string>
+    <string name="settings_sign_out_title">Выйти?</string>
+    <string name="settings_sign_out_body">Сохранённый ключ и кэш разговоров будут удалены с устройства. Запущенные задачи продолжат работу на серверах OpenHands.</string>
+
+    <!-- Служба запуска -->
+    <string name="launch_channel_name">Запуск задачи</string>
+    <string name="launch_channel_description">Показывает прогресс во время запуска задачи</string>
+    <string name="launch_notification_starting">Запуск: %1$s</string>
+    <string name="launch_status_sandbox">Ожидание песочницы…</string>
+    <string name="launch_status_repository">Подготовка репозитория…</string>
+    <string name="launch_status_setup">Выполнение настройки…</string>
+    <string name="launch_status_hooks">Настройка git-хуков…</string>
+    <string name="launch_status_skills">Настройка навыков…</string>
+    <string name="launch_status_conversation">Запуск разговора…</string>
+    <string name="launch_status_ready">Готово</string>
+    <string name="launch_status_error">Не удалось запустить</string>
+    <string name="launch_result_running">Задача запущена. Агент работает.</string>
+    <string name="launch_result_failed">Не удалось запустить задачу: %1$s</string>
+
+    <!-- Действия -->
+    <string name="action_refresh">Обновить</string>
+    <string name="action_back">Назад</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_send">Отправить</string>
+    <string name="action_sign_out">Выйти</string>
+    <string name="action_approve">Подтвердить</string>
+    <string name="action_reject">Отклонить</string>
+    <string name="action_pause">Пауза</string>
+    <string name="action_resume">Возобновить</string>
+</resources>

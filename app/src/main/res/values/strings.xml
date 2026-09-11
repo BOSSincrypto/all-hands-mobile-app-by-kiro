@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenHands</string>
+
+    <!-- Auth -->
+    <string name="sign_in_explainer">Sign in with your browser. OpenHands shows a code you confirm, so no API key is ever typed on this device.</string>
+    <string name="sign_in_action">Sign in with browser</string>
+    <string name="device_code_title">Confirm this code</string>
+    <string name="device_code_explainer">Open the OpenHands page and confirm that the code shown there matches the one above.</string>
+    <string name="device_code_open_browser">Open OpenHands</string>
+    <string name="device_code_waiting">Waiting for confirmation…</string>
+    <string name="lock_title">Locked</string>
+    <string name="lock_explainer">Your credential is encrypted with a key that only unlocks with your biometrics or device PIN.</string>
+    <string name="lock_unlock">Unlock</string>
+    <string name="biometric_title">OpenHands</string>
+    <string name="biometric_subtitle_unlock">Confirm your identity to unlock your account</string>
+    <string name="biometric_subtitle_save">Confirm your identity to save the credential securely</string>
+
+    <!-- Conversations -->
+    <string name="conversations_title">Conversations</string>
+    <string name="conversations_empty">No conversations yet. Start a task with the + button.</string>
+    <string name="conversation_untitled">Untitled conversation</string>
+    <string name="conversation_cost">$%.2f</string>
+
+    <!-- Status -->
+    <string name="status_starting">Starting</string>
+    <string name="status_running">Working</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_waiting_confirmation">Needs your approval</string>
+    <string name="status_finished">Finished</string>
+    <string name="status_error">Error</string>
+    <string name="status_stuck">Stuck</string>
+    <string name="status_sandbox_error">Sandbox error</string>
+    <string name="status_sandbox_missing">Sandbox removed</string>
+    <string name="status_unknown">Unknown</string>
+
+    <!-- New task -->
+    <string name="new_task_title">New task</string>
+    <string name="new_task_prompt_label">Task</string>
+    <string name="new_task_prompt_hint">Describe what the agent should do</string>
+    <string name="new_task_provider_label">Git provider</string>
+    <string name="new_task_repo_search_label">Search repositories</string>
+    <string name="new_task_repo_label">Repository</string>
+    <string name="new_task_no_repo">No repository</string>
+    <string name="new_task_branch_label">Branch</string>
+    <string name="new_task_branch_default">Default branch</string>
+    <string name="new_task_model_label">Model</string>
+    <string name="new_task_model_default">Account default</string>
+    <string name="new_task_start">Start task</string>
+    <string name="new_task_background_note">The agent runs on OpenHands servers, so you can close the app and the task keeps going.</string>
+
+    <!-- Chat -->
+    <string name="chat_message_hint">Message the agent</string>
+    <string name="chat_live">Live</string>
+    <string name="chat_confirmation_prompt">The agent is waiting for your approval before continuing.</string>
+    <string name="chat_sandbox_paused">This sandbox is paused. Resume it to continue working.</string>
+
+    <!-- Files and terminal -->
+    <string name="files_title">Files</string>
+    <string name="terminal_title">Terminal</string>
+    <string name="terminal_hint">Command</string>
+    <string name="terminal_run">Run</string>
+    <string name="terminal_warning">Commands run inside the task sandbox, not on your phone.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_web_section">Web interface</string>
+    <string name="settings_web_explainer">Agent Canvas and full account settings open in your browser, where they are designed to work.</string>
+    <string name="settings_open_canvas">Agent Canvas</string>
+    <string name="settings_open_web">Account settings</string>
+    <string name="settings_secrets_section">Secrets</string>
+    <string name="settings_secrets_explainer">Secrets are stored by OpenHands and exposed to your agents as environment variables. Values are never shown again after saving.</string>
+    <string name="settings_secrets_empty">No secrets stored.</string>
+    <string name="settings_secret_add">Add secret</string>
+    <string name="settings_secret_name">Name</string>
+    <string name="settings_secret_value">Value</string>
+    <string name="settings_security_section">Security</string>
+    <string name="settings_security_explainer">Signing out deletes the encrypted credential and the local cache from this device.</string>
+    <string name="settings_sign_out_title">Sign out?</string>
+    <string name="settings_sign_out_body">The saved credential and cached conversations will be removed from this device. Running tasks keep going on OpenHands servers.</string>
+
+    <!-- Launch service -->
+    <string name="launch_channel_name">Task launch</string>
+    <string name="launch_channel_description">Shows progress while a task is being started</string>
+    <string name="launch_notification_starting">Starting: %1$s</string>
+    <string name="launch_status_sandbox">Waiting for a sandbox…</string>
+    <string name="launch_status_repository">Preparing the repository…</string>
+    <string name="launch_status_setup">Running setup…</string>
+    <string name="launch_status_hooks">Setting up git hooks…</string>
+    <string name="launch_status_skills">Setting up skills…</string>
+    <string name="launch_status_conversation">Starting the conversation…</string>
+    <string name="launch_status_ready">Ready</string>
+    <string name="launch_status_error">Could not start</string>
+    <string name="launch_result_running">Task started. The agent is now working.</string>
+    <string name="launch_result_failed">Task could not start: %1$s</string>
+
+    <!-- Actions -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_send">Send</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_approve">Approve</string>
+    <string name="action_reject">Reject</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+</resources>
