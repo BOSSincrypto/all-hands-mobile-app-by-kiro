@@ -18,8 +18,10 @@ val keystoreProps = Properties().apply {
     if (keystorePropsFile.exists()) keystorePropsFile.inputStream().use { load(it) }
 }
 
+// Blank counts as absent: an unset GitHub Actions secret expands to an empty string,
+// and `file("")` throws rather than reporting a missing keystore.
 fun signingValue(key: String, env: String): String? =
-    keystoreProps.getProperty(key) ?: System.getenv(env)
+    (keystoreProps.getProperty(key) ?: System.getenv(env))?.takeIf { it.isNotBlank() }
 
 val releaseStorePath = signingValue("storeFile", "RELEASE_STORE_FILE")
 val hasReleaseSigning = releaseStorePath != null && file(releaseStorePath).exists()
